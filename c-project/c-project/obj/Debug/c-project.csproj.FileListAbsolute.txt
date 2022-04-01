@@ -1,0 +1,7 @@
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\bin\Debug\c-project.exe.config
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\bin\Debug\c-project.exe
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\bin\Debug\c-project.pdb
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\obj\Debug\c-project.csprojAssemblyReference.cache
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\obj\Debug\c-project.csproj.CoreCompileInputs.cache
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\obj\Debug\c-project.exe
+C:\Users\Sami\Desktop\c-projects\c-project\c-project\obj\Debug\c-project.pdb

@@ -10,7 +10,12 @@ namespace c_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            //Soru-1 Ekrana 10 kez "Hello world" yazdır.
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Hello World");
+            }
+            
             Console.ReadKey();
         }
     }
