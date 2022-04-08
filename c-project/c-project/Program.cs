@@ -84,7 +84,7 @@ namespace c_project
             {
                 Console.WriteLine(date.ToString("dddd.dd.MMMM.HHHH:mm", CultureInfo.CurrentCulture));
 
-
+            }
 
                 //8) Kullanıcı ekrandan önce yıl sonra ay girsin ve bu ay ve yıla ait tüm tarihler sıralansın. Ekrandan yıl ve ay alıp yeni list içine eski listemizden yıl ve ayı for icinde cekip ekrana verdiö
 
