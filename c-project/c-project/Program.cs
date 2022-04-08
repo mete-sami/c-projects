@@ -73,11 +73,22 @@ namespace c_project
             //6) Saat aralığı 17:00 - 18:00 arasında olan tüm tarihleri ekrana yaz. (Yapamadım)
 
 
-            //7) Kullanıcı ekrandan bir yıl girsin ve o yıla ait tüm tarihleri ekrana yaz.(Yapamadım)
+            //7) Kullanıcı ekrandan bir yıl girsin ve o yıla ait tüm tarihleri ekrana yaz. Where metodu ile girilen yılı list ile karsılastırıp foreach ile ekrana verdim
 
-            //8) Kullanıcı ekrandan önce yıl sonra ay girsin ve bu ay ve yıla ait tüm tarihler sıralansın. Ekrandan yıl ve ay alıp yeni list içine eski listemizden yıl ve ayı for icinde cekip ekrana verdiö
+            Console.WriteLine("Yıl giriniz. ");
+            int year = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Yılı gir.");
+            List<DateTime> yenii = dateTimes.Where(x => x.Year == year).ToList();
+
+            foreach (DateTime date in dateTimes)
+            {
+                Console.WriteLine(date.ToString("dddd.dd.MMMM.HHHH:mm", CultureInfo.CurrentCulture));
+
+
+
+                //8) Kullanıcı ekrandan önce yıl sonra ay girsin ve bu ay ve yıla ait tüm tarihler sıralansın. Ekrandan yıl ve ay alıp yeni list içine eski listemizden yıl ve ayı for icinde cekip ekrana verdiö
+
+                Console.WriteLine("Yılı gir.");
             int yıl = Convert.ToInt32(Console.Read());
             Console.WriteLine("Ayı gir.");
             int ay = Convert.ToInt32(Console.Read());
